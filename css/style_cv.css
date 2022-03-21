@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600&display=swap');
+
+header{
+    background-color: rgb(227, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    box-shadow: 2px 5px 15px 2px rgb(0, 0, 0/ 10%);
+    position: fixed;
+    width: calc(100% - 0%);
+    top: 0;
+    z-index: 100;
+    transition: left 300ms;
+}
+.accueil{
+    font-size: 1rem;
+    margin-left: auto;
+    color: #008ea1;  
+}
+.search-wrapp{
+    border: 1px solid #008ea1;  
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.search-wrapp input{
+    height: 100%;
+    padding: .5rem;
+    border: none;
+    outline: none;
+}
+.search-wrapp span{
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+    color: #008ea1;
+}
+.user-wrapp{
+    display: flex;
+    align-items: center;
+}
+.user-wrapp img{
+    border-radius: 50%;
+    margin-right: 10rem;
+}
+.user-wrapp small{
+    color: rgb(178, 198, 201);
+    display: inline-block;
+}
+.logo-admin{
+    cursor: pointer;
+}
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    height: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+    padding: 5px;
+    z-index: 1;
+}
+
+#dropdown:hover .dropdown-content{
+    display: block;
+    cursor: pointer;
+}
+.dropdown-content p{
+    padding: 1rem;
+}
+
+body{
+    font-family: 'Spartan', serif; 
+}
+
+.fond_colore{
+
+    background-color: #2373BD;
+    height: 600px;
+    width: auto;
+    padding: 8% 0% 8% 0%;
+
+}
+
+.img_text{
+    background-image: url("2H9A0193.JPG");
+    background-position: center;
+    background-size: 33%;
+    height: 40rem; 
+    width: 90rem;
+    background-repeat: no-repeat;
+
+}
+
+
+.img {
+    color: azure;
+    margin-left: 15%;
+}
+
+pre p{
+
+    font-size: 15px;
+}
+
+
+pre h4{
+
+    font-size: 15px;
+}
+
+.img h4{
+    text-align: justify;
+}
+
+.a_propos{
+    margin: 5% 20% 0% 20%;
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 237, 247);
+    border: 13px solid #1C5487
+}
+
+.a_propos p{
+    text-align: justify;
+   justify-content: center;
+
+}
+
+
+
+h2{
+    font-family: 'spartan', sans-serif;
+    font-size: 30px;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.corpo{
+    text-align-last: center;
+}
+
+.form_ctp{
+
+    margin: 3% 20% 0% 20%;
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 237, 247);
+    border: 10px solid #1C5487
+
+}
+
+.EXP{
+    margin: 3% 20% 0% 20%;
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 237, 247);
+    border: 10px solid #1C5487
+    
+}
+
+.EXP h2{
+   margin-bottom: 10%;
+}
+
+.EXP P{
+    margin-top: 30px;
+}
+
+.EXP p strong{
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.divers{
+
+    margin: 3% 20% 0% 20%;
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 237, 247);
+    border: 10px solid #1C5487
+
+}
+
+.divers p{
+    line-height: 25px;
+}
+
+.divers img{
+    width: 30px;
+    height: auto;
+}
+
+
+footer{
+    background-color:#052c40 ;
+    margin-top: 5%;
+
+}
+
+.mon-footer p{
+    font-family: 'spartan';
+}
+
+.mon-footer p img{
+    width: 30px;
+    height: auto;
+}
+
+.mon-footer .fin{
+    justify-content: center;
+    font-family:'spartan', sans-serif ;
+    display: flex;
+    font-size: 10px;
+}
+
+.mon-footer .fin a{
+    margin: 0% 2% 0% 0%;
+}
